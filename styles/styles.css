@@ -31,4 +31,37 @@ p{
 input, button{
     display: block;
     width:100%;
+
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+background-color: blueviolet;
+color: white;
+transition: filter .2s;
+}
+
+button:hover{
+    filter: brightness(1.1);
+    cursor:pointer;
+}
+
+
+#resposta{
+margin-top: 30px;
+
+transition: opacity 1s;
+}
+
+#resposta div{
+font-size: 16px;
+font-weight: normal;
+opacity: 0.9;
+margin-bottom: 10px;
 }
